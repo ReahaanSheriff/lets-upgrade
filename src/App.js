@@ -1,6 +1,6 @@
 import Button from './components/Button';
 import './App.css';
-
+import Counter from './components/Counter';
 function App() {
   return (
     <>
@@ -16,7 +16,8 @@ function App() {
       </div>
       
     </div>
-    <h1 className="text-center">Hello World</h1>
+    <h1 className="text-center">Counter App🎉🤙</h1>
+    <Counter/>
     </>
   );
 }
